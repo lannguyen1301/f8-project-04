@@ -749,20 +749,14 @@ button {
 }
 
 .staff-item__img-wrap::after {
-    content: "";
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    width: calc(100% + 36px);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
 }
 
 .staff-item:nth-child(1) .staff-item__img-wrap::after {
-    background-image: url(../img/staff-decor-01.svg);
+    content: url(../img/staff-decor-01.svg);
 }
 
 .staff-item:nth-child(2) .staff-item__img-wrap::before {
@@ -770,7 +764,7 @@ button {
 }
 
 .staff-item:nth-child(2) .staff-item__img-wrap::after {
-    background-image: url(../img/staff-decor-02.svg);
+    content: url(../img/staff-decor-02.svg);
 }
 
 .staff-item:nth-child(3) .staff-item__img-wrap::before {
@@ -778,7 +772,7 @@ button {
 }
 
 .staff-item:nth-child(3) .staff-item__img-wrap::after {
-    background-image: url(../img/staff-decor-03.svg);
+    content: url(../img/staff-decor-03.svg);
 }
 
 .staff-item:nth-child(4) .staff-item__img-wrap::before {
@@ -786,11 +780,12 @@ button {
 }
 
 .staff-item:nth-child(4) .staff-item__img-wrap::after {
-    background-image: url(../img/staff-decor-04.svg);
+    content: url(../img/staff-decor-04.svg);
 }
 
 .staff-item:nth-child(even) .staff-item__img-wrap::after {
-    background-position: 0 16px; /* x = 0; y = 16px */
+    bottom: initial; /* trờ về giá trị mặc định của bottom */
+    top: 16px;
 }
 
 .staff-item__img {

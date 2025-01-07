@@ -758,7 +758,6 @@ button {
     height: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100%;
 }
 
 .staff-item:nth-child(1) .staff-item__img-wrap::after {
