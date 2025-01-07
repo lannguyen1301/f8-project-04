@@ -513,8 +513,7 @@ button {
 }
 
 .tab__list::after,
-.tab__item--active::after,
-.tab__content-more::after {
+.tab__item--active::after {
     position: absolute;
     content: "";
     left: 0;
@@ -575,13 +574,10 @@ button {
     position: relative;
     display: inline-block;
     margin-top: 32px;
-    padding-bottom: 5px;
     font-size: 1.6rem;
     line-height: 1;
     color: #ff5d31;
 }
 
 .tab__content-more::after {
-    opacity: 1;
-    height: 1.5px;
 }

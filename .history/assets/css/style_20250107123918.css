@@ -5,7 +5,6 @@
 :root {
     --primary-color: #000958;
     --secondary-color: #ff5b2e;
-    --tertiary-color: #656689;
 }
 
 html {
@@ -95,7 +94,7 @@ button {
     margin-top: 24px;
     font-size: 1.6rem;
     line-height: 1.88;
-    color: var(--tertiary-color);
+    color: #656689;
 }
 
 /* Header */
@@ -270,7 +269,7 @@ button {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.87;
-    color: var(--tertiary-color);
+    color: #656689;
 }
 
 .hero__row {
@@ -510,11 +509,11 @@ button {
     position: relative;
     display: flex;
     column-gap: 56px;
+    padding: 10px;
 }
 
 .tab__list::after,
-.tab__item--active::after,
-.tab__content-more::after {
+.tab__item--active::after {
     position: absolute;
     content: "";
     left: 0;
@@ -536,8 +535,6 @@ button {
     display: flex;
     align-items: center;
     column-gap: 12px;
-    padding-bottom: 10px;
-    cursor: pointer;
 }
 
 .tab__icon {
@@ -553,35 +550,10 @@ button {
 }
 
 .tab__contents {
-    padding-top: 36px;
 }
 
 .tab__content-item {
-    display: none;
-}
-
-.tab__content-item--active {
-    display: block;
 }
 
 .tab__content-desc {
-    width: 391px;
-    font-size: 1.4rem;
-    line-height: 1.71;
-    color: var(--tertiary-color);
-}
-
-.tab__content-more {
-    position: relative;
-    display: inline-block;
-    margin-top: 32px;
-    padding-bottom: 5px;
-    font-size: 1.6rem;
-    line-height: 1;
-    color: #ff5d31;
-}
-
-.tab__content-more::after {
-    opacity: 1;
-    height: 1.5px;
 }
