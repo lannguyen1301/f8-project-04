@@ -632,7 +632,6 @@ button {
 
 .service-item__heading {
     position: relative;
-    padding-left: 12px;
     font-weight: 600;
     font-size: 2.2rem;
     line-height: 1;
@@ -641,6 +640,7 @@ button {
 
 .service-item__heading::before {
     position: absolute;
+    padding-left: 12px;
     inset: 0 auto 0 0;
     content: "";
     display: inline-block;
