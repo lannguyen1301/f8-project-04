@@ -904,9 +904,3 @@ button {
     .pricing__switch-value:nth-of-type(1) {
     color: var(--secondary-color);
 }
-
-.pricing__sale-off {
-    position: absolute;
-    top: -10px;
-    right: -112px;
-}
