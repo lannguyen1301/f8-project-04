@@ -66,10 +66,10 @@ button {
     cursor: pointer;
 }
 
-.btn--primary {
-    color: #fff !important;
-    background-color: var(--secondary-color) !important;
-    border-color: currentColor !important;
+.btn--prymary {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: currentColor;
 }
 
 .btn__icon {
@@ -835,10 +835,6 @@ button {
     background-color: #fff6ed;
 }
 
-.pricing__container {
-    width: 994px;
-}
-
 .pricing__heading,
 .pricing__desc {
     text-align: center;
@@ -923,57 +919,19 @@ button {
 }
 
 .pricing-item {
-    padding: 30px 28px;
-    background-color: #fff;
-    border-radius: 20px;
 }
 
 .pricing-item_type {
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1;
-    color: var(--secondary-color);
 }
 
 .pricing-item__heading {
-    margin-top: 8px;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 1;
-    color: #3f4065;
 }
 
 .pricing-item__price {
-    margin-top: 24px;
-    font-family: Sora, sans-serif;
-    font-weight: 700;
-    font-size: 3.3rem;
-    line-height: 1.03;
-    color: var(--primary-color);
 }
 
 .pricing-item__btn {
-    --height: 44px;
-    margin-top: 22px;
-    width: 100%;
-    border: 1px solid rgba(255, 91, 46, 0.6);
-    color: var(--secondary-color);
-    background: transparent;
 }
 
 .pricing-item__list {
-    margin-top: 24px;
-}
-
-.pricing-item__item {
-    display: flex;
-    margin-top: 18px;
-    font-size: 1.4rem;
-    line-height: 1;
-    color: var(--tertiary-color);
-}
-
-.pricing-item__item::before {
-    content: url(../icon/price-check.svg);
-    margin-right: 14px;
 }

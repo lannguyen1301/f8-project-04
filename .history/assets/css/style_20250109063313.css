@@ -66,10 +66,10 @@ button {
     cursor: pointer;
 }
 
-.btn--primary {
-    color: #fff !important;
-    background-color: var(--secondary-color) !important;
-    border-color: currentColor !important;
+.btn--prymary {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: currentColor;
 }
 
 .btn__icon {

@@ -66,10 +66,10 @@ button {
     cursor: pointer;
 }
 
-.btn--primary {
-    color: #fff !important;
-    background-color: var(--secondary-color) !important;
-    border-color: currentColor !important;
+.btn--prymary {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: currentColor;
 }
 
 .btn__icon {
@@ -833,10 +833,6 @@ button {
 .pricing {
     padding: 86px 0;
     background-color: #fff6ed;
-}
-
-.pricing__container {
-    width: 994px;
 }
 
 .pricing__heading,

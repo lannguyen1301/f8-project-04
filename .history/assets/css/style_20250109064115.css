@@ -66,8 +66,8 @@ button {
     cursor: pointer;
 }
 
-.btn--primary {
-    color: #fff !important;
+.btn--prymary {
+    color: #fff;
     background-color: var(--secondary-color) !important;
     border-color: currentColor !important;
 }

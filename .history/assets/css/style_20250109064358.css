@@ -67,7 +67,7 @@ button {
 }
 
 .btn--primary {
-    color: #fff !important;
+    color: #fff;
     background-color: var(--secondary-color) !important;
     border-color: currentColor !important;
 }
