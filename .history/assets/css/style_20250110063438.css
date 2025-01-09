@@ -1286,8 +1286,8 @@ button {
 
 .social-item {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -1300,34 +1300,30 @@ button {
 
 .footer__right {
     flex: 1px;
-    padding: 52px 0 48px 0;
+    padding: 52px 0 48px 129px;
 }
 
 .footer__row {
-    margin-left: 129px;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 58px 137px;
+}
+
+.footer__column {
+}
+
+.footer__heading {
 }
 
 .footer__list {
     margin-top: 14px;
 }
 
+.footer__item {
+}
+
 .footer__link {
     font-size: 1.4rem;
     line-height: 2;
-    color: var(--tertiary-color);
-}
-
-.footer__link:hover {
-    text-decoration: underline;
-}
-
-.footer__copyright {
-    margin: 52px 0 0 22px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.17;
     color: var(--tertiary-color);
 }

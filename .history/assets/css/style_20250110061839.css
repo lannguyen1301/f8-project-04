@@ -1208,7 +1208,7 @@ button {
 /* Footer */
 .footer {
     margin-top: 52px;
-    background: linear-gradient(to right, #fff6ed 43%, transparent 42%);
+    background-color: #fff6ed;
 }
 
 .footer__inner {
@@ -1217,7 +1217,6 @@ button {
 
 .footer__left {
     padding: 114px 0 148px;
-    width: 42%;
 }
 
 .subscribe-form {
@@ -1299,35 +1298,23 @@ button {
 }
 
 .footer__right {
-    flex: 1px;
-    padding: 52px 0 48px 0;
 }
 
 .footer__row {
-    margin-left: 129px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 58px 137px;
+    display: flex;
+}
+
+.footer__column {
+}
+
+.footer__heading {
 }
 
 .footer__list {
-    margin-top: 14px;
+}
+
+.footer__item {
 }
 
 .footer__link {
-    font-size: 1.4rem;
-    line-height: 2;
-    color: var(--tertiary-color);
-}
-
-.footer__link:hover {
-    text-decoration: underline;
-}
-
-.footer__copyright {
-    margin: 52px 0 0 22px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.17;
-    color: var(--tertiary-color);
 }

@@ -1300,7 +1300,7 @@ button {
 
 .footer__right {
     flex: 1px;
-    padding: 52px 0 48px 0;
+    padding: 52px 0 48px;
 }
 
 .footer__row {

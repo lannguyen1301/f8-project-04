@@ -1300,11 +1300,10 @@ button {
 
 .footer__right {
     flex: 1px;
-    padding: 52px 0 48px 0;
+    padding: 52px 0 48px 129px;
 }
 
 .footer__row {
-    margin-left: 129px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 58px 137px;
@@ -1326,8 +1325,4 @@ button {
 
 .footer__copyright {
     margin: 52px 0 0 22px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.17;
-    color: var(--tertiary-color);
 }

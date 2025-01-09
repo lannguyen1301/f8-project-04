@@ -1208,7 +1208,7 @@ button {
 /* Footer */
 .footer {
     margin-top: 52px;
-    background: linear-gradient(to right, #fff6ed 43%, transparent 42%);
+    background-color: #fff6ed;
 }
 
 .footer__inner {
@@ -1217,117 +1217,36 @@ button {
 
 .footer__left {
     padding: 114px 0 148px;
-    width: 42%;
 }
 
-.subscribe-form {
+.search-form {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 268px;
     height: 46px;
-    margin: 34px 0 68px;
     border: 1px solid rgba(255, 91, 46, 0.25);
     border-radius: 99px;
     background-color: #fff;
 }
 
-.subscribe-form__input {
+.search-form__input {
     width: 100%;
     height: 100%;
     outline: none;
     border: none;
     border-radius: 99px;
     padding: 22px;
-    font-size: 1.4rem;
 }
 
-.subscribe-form__input::placeholder {
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 1.17;
-    color: var(--tertiary-color);
-    opacity: 0.8;
-}
-
-.subscribe-form__submit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 46px;
-    height: 46px;
-    margin-right: -1px;
-    border-radius: 50%;
-    background-color: var(--secondary-color);
-    box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
-    outline: none;
-    border: none;
-}
-
-.subscribe-form__submit:hover {
-    opacity: 0.9;
-    cursor: pointer;
+.search-form__submit {
 }
 
 .footer__heading {
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 1.11;
-    color: var(--primary-color);
 }
 
 .social-list {
-    display: flex;
-    align-items: center;
-    column-gap: 16px;
-    margin-top: 16px;
 }
 
 .social-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-
-.social-item:hover {
-    opacity: 0.9;
-}
-
-.footer__right {
-    flex: 1px;
-    padding: 52px 0 48px 0;
-}
-
-.footer__row {
-    margin-left: 129px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 58px 137px;
-}
-
-.footer__list {
-    margin-top: 14px;
-}
-
-.footer__link {
-    font-size: 1.4rem;
-    line-height: 2;
-    color: var(--tertiary-color);
-}
-
-.footer__link:hover {
-    text-decoration: underline;
-}
-
-.footer__copyright {
-    margin: 52px 0 0 22px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.17;
-    color: var(--tertiary-color);
 }
