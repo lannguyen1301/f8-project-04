@@ -1027,14 +1027,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 115px;
+    column-gap: 151px;
 }
 
 .review-item__media {
     position: relative;
     flex-shrink: 0;
     width: 274px;
-    margin-top: -52px;
     border-radius: 137px;
 }
 
@@ -1067,8 +1066,7 @@ button {
 }
 
 .review-item__author {
-    display: flex;
-    align-items: center;
+    position: relative;
     margin-top: 34px;
     font-family: Sora, sans-serif;
     font-weight: 600;
@@ -1078,36 +1076,19 @@ button {
 }
 
 .review-item__author::before {
-    display: inline-block;
+    position: absolute;
     content: "";
     width: 20px;
     height: 2px;
-    margin-right: 8px;
     background: #000;
     border-radius: 1px;
 }
 
 .review__dots {
-    margin-top: 56px;
-    display: flex;
-    column-gap: 8px;
-    align-items: center;
-    justify-content: center;
 }
 
 .review__dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 4px;
-    border: 1px solid var(--secondary-color);
-}
-
-.review__dot:hover {
-    background-color: var(--secondary-color);
-    cursor: pointer;
 }
 
 .review__dot--active {
-    width: 24px;
-    background-color: var(--secondary-color);
 }
